@@ -243,6 +243,7 @@ const run = async () => {
           reported: true,
         },
       };
+
       const result = await productsCollection.updateOne(
         filter,
         updatedDoc,
